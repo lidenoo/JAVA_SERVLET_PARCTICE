@@ -7,13 +7,33 @@
 </head>
 <body>
 
+<form action="/maven_02/request" method="post">
+
+    <input  type="submit" value="TEST CONNECT">
+
+
+
+</form>
+
+
 <%
 
     Object getStr = request.getAttribute("getStr");
-
+    Object getConstat = request.getAttribute("getConstat");
     
 %>
+
+<%if(getStr !=null){%>
+
 <%="HELLO!!!"+getStr %>
+<%}%>
+
+<%
+if(getConstat !=null){%>
+<%=getConstat %>
+<%}%>
+
+
 
 
 

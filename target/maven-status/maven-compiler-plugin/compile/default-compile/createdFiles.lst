@@ -1,1 +1,3 @@
 ch\aa\controller\mainClass.class
+ch\aa\controller\sqlController.class
+ch\aa\controller\sqlCon\sqlConnect.class
